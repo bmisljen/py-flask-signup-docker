@@ -52,7 +52,7 @@ def welcome():
     theme = application.config['THEME']
     return flask.render_template('index.html', theme=theme, flask_debug=application.debug)
 
-
+# test comment
 @application.route('/signup', methods=['POST'])
 def signup():
     signup_data = dict()
